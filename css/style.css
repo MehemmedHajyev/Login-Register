@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.reg,
+.regPar {
+    display: none;
+}
+
+.register_page {
+    display: none;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    height: 500px;
+    box-shadow: 0 0 9px rgba(69, 69, 69, 0.50);
+
+}
+
+.log_page {
+    display: flex;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    height: 500px;
+    box-shadow: 0 0 9px rgba(69, 69, 69, 0.50);
+}
+
+h1 {
+    text-align: center;
+    background: #383838;
+    color: #fff;
+    max-width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.login_name {
+    border-radius: 10%;
+
+}
+
+h2 {
+    text-align: center;
+    background: #383838;
+    color: #fff;
+    max-width: 41%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.goBackParent {
+    display: none;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #383838;
+
+}
+
+.GoBack {
+    background-color: #fff;
+    color: #383838;
+    /* display: flex; */
+    margin-left: 50px;
+}
+
+
+.GoBack:hover {
+    transition: ease 1s;
+}
+
+.log_page {
+    overflow: hidden;
+}
+
+
+.frm_one {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+
+input {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #d1d1d1;
+    text-transform: capitalize;
+    background: none;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: #383838;
+    cursor: pointer;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.profle {
+    display: none;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* background: red; */
+}
+
+.profle img {
+    width: 100%;
+    height: 100%;
+}
